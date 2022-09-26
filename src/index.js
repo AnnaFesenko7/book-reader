@@ -8,7 +8,7 @@ import '/node_modules/modern-normalize/modern-normalize.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/booke-reader">
+    <BrowserRouter basename="/book-reader">
       <App />
     </BrowserRouter>
   </React.StrictMode>
