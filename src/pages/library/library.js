@@ -1,15 +1,15 @@
 import React from 'react';
 import BookAddForm from './bookAddForm';
-import BookTable from './bookTable';
+// import BookTable from './bookTable';
 
 const Library = () => {
   return (
     <>
       <h2>Library Section -------- </h2>
       <BookAddForm />
-      <BookTable text="Already read" />
+      {/* <BookTable text="Already read" />
       <BookTable text="Reading now" />
-      <BookTable text="Going to read" />
+      <BookTable text="Going to read" /> */}
     </>
   );
 };
